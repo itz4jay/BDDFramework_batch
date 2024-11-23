@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-11-23T16:35:46.228Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2550000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginStep.bowserSetup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check login is successful with valid credential",
+        "description": "",
+        "id": "validation-of-login-feature;check-login-is-successful-with-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginStep.clearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2116000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepdefinitions.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"mngr602007\" and \"rYzAgab\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr602007\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"rYzAgab\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.LoginStep.user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "stepdefinitions.LoginStep.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is navigated to Home Page",
+            "match": {
+              "location": "stepdefinitions.LoginStep.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-23T16:35:52.091Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1914000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginStep.bowserSetup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Check login is successful with invalid credential",
+        "description": "",
+        "id": "validation-of-login-feature;check-login-is-successful-with-invalid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginStep.clearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1821000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepdefinitions.LoginStep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 324000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"mngr570407\" and \"epYmyry11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr570407\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"epYmyry11\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.LoginStep.user_enters_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on login button",
+            "match": {
+              "location": "stepdefinitions.LoginStep.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User received error message",
+            "match": {
+              "location": "stepdefinitions.LoginStep.user_received_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of login feature",
+    "description": "",
+    "id": "validation-of-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/guru99login.feature",
+    "tags": []
+  }
+]

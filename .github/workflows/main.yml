@@ -36,5 +36,5 @@ jobs:
 
       # Step 5: Run BDD Cucumber Tests
       - name: Run Cucumber Tests
-        run: mvn test
+        run: mvn verify
         shell: cmd

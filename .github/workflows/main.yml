@@ -38,3 +38,9 @@ jobs:
       - name: Run Cucumber Tests
         run: mvn verify
         shell: cmd
+
+      - name: Deploy report page to GitHub Page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/cucumber-report-html/cucumber-html-reports

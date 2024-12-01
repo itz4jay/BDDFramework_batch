@@ -1,7 +1,9 @@
 name: Run BDD Cucumber Tests on Windows
 
 on:
-  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+  #workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+  schedule:
+    - cron: "*/15 * * * *"
 
 jobs:
   run-bdd-tests:

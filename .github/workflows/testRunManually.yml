@@ -1,4 +1,4 @@
-name: Run BDD Cucumber Tests on Windows
+name: Run Tests Manually on Windows
 
 on:
   workflow_dispatch: 

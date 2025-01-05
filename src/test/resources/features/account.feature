@@ -10,4 +10,4 @@ And Create a new account
 
 Examples:
 |username|password|
-|mngr602007|rYzAgab|
+|mngr605860|dUbesUs|

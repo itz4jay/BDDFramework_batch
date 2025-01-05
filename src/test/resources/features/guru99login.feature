@@ -9,7 +9,7 @@ Then User is navigated to Home Page
 
 Examples:
 |username|password|
-|mngr602007|rYzAgab|
+|mngr605860|dUbesUs|
 
 @Login @Regression
 Scenario Outline: Check login is successful with invalid credential
@@ -20,4 +20,4 @@ Then User received error message
 
 Examples:
 |username|password|
-|mngr570407|epYmyry11|
+|mngr605860|dUbesUs|
